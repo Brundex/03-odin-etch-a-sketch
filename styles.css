@@ -4,6 +4,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 #title {
     text-align: center;
 }
@@ -13,6 +14,7 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+
 .button{
     margin: 12px;
     border-radius: 5px;
