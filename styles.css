@@ -1,15 +1,32 @@
 body {
-    background-color: #ddd;
+    background-color: rgb(4, 4, 77);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#title {
+    text-align: center;
+}
+
+#buttons {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
-#grid-size-setter {
+.button{
+    margin: 12px;
+    border-radius: 5px;
+    background-color: aquamarine;
     height: 25px;
     width: 100px;
 }
-#clear {
-    height: 25px;
-    width: 100px;
+
+#content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 32px;
 }
 #container {
     overflow: hidden;
@@ -23,18 +40,13 @@ body {
     max-width: 650px;
     height: 650px;
     max-height: 650px;
-    border: 1px solid black;
+    border: 10px solid #333;
     padding: 0;
     margin: 0;
-    box-shadow: 1px 1px;
 }
 
 .square {
     color: #fff;
     margin: 0px;
     padding: 0px;
-}
-
-.hover {
-    background-color: black;
 }
