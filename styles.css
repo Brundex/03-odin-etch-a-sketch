@@ -30,6 +30,7 @@ body {
     flex-direction: row;
     gap: 32px;
 }
+
 #container {
     overflow: hidden;
     float: left;
